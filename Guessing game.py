@@ -1,8 +1,8 @@
 import random
-random_num = random.randrange(1, 10)
+random_num = random.randrange(1, 30)
 
 while True:
-    num = int(input("Enter a number from 1 to 10: "))
+    num = int(input("Enter a number from 1 to 30: "))
     if num == random_num:
         print("Congratulations, you guessed correctly!")
         break  # To stop the loop once the correct guess is made
